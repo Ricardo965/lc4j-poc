@@ -1,0 +1,6 @@
+# Acme Corp Internal Employee Policy
+1. Working Hours: Employees are expected to work from 9:00 AM to 5:00 PM, Monday to Friday. Remote work is flexible but core hours are 10:00 AM to 3:00 PM.
+2. Leave Policy: All full-time employees are entitled to 20 days of paid time off per year, plus 10 public holidays.
+3. Code of Conduct: We expect professional behavior at all times. Harassment, discrimination, or abusive language will result in immediate termination.
+4. Equipment: Employees are provided with a standard issue laptop (usually a MacBook Pro or Dell XPS). Hardware must be returned upon resignation.
+5. Travel Expenses: Work-related travel expenses, including flights, hotels, and meals up to $75 per day, will be reimbursed within 30 days of submitting receipts.
