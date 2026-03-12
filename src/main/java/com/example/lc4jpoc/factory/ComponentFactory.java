@@ -60,7 +60,10 @@ public class ComponentFactory {
     public DocumentSplitter getDocumentSplitter(String method) {
         return switch (method.toLowerCase()) {
             case "recursive" -> DocumentSplitters.recursive(300, 30);
-            case "sentence" -> DocumentSplitters.recursive(100, 10); // Simulating another strategy to showcase swapping
+            case "sentence" -> new dev.langchain4j.data.document.splitter.DocumentBySentenceSplitter(300, 30);
+            case "paragraph" -> new dev.langchain4j.data.document.splitter.DocumentByParagraphSplitter(300, 30);
+            case "fixed" -> new dev.langchain4j.data.document.splitter.DocumentByCharacterSplitter(300, 30);
+            case "line" -> new dev.langchain4j.data.document.splitter.DocumentByLineSplitter(300, 30);
             default -> throw new IllegalArgumentException("Unsupported chunking method: " + method);
         };
     }
